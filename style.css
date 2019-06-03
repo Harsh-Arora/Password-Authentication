@@ -1,0 +1,108 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background: #000;
+	color: #fff;
+	padding: 20px;
+}
+
+.head{
+	text-align: center;
+	font-size: 2em;
+}
+
+.data{
+	width: 50%;
+	padding: 20px;
+	margin: 30px auto;
+}
+
+.form{
+	margin: 0 auto;
+	color: #bbb;
+	width: 75%;
+	font-size: 1.5em;
+	overflow: hidden;
+}
+
+form input{
+	font-size: 1em;
+	padding: 5px 0px;
+	width: 100%;
+	background: transparent;
+	border: none;
+	border-bottom: 1pt solid #fff;
+	color: #fff;
+	margin: 10px auto;
+}
+
+form input:focus{
+	outline: none;
+}
+
+.btn{
+	width: auto;
+	border: 1pt solid #fff;
+	display: block;
+	padding: 1% 5%;
+	cursor: pointer;
+	transition: .5s;
+	color: #fff;
+	text-align: center;
+	width: 50%;
+	margin: 10px auto;
+}
+
+.btn:hover{
+	background: #fff;
+	color: #000;	
+	box-shadow: 0 0 10px 0px #fff;
+}
+
+.res{
+	text-align: center;
+}
+
+.chk{
+	margin: 0 auto;
+	width: 50%;
+	padding: 10px;
+	font-size: 1.25em;
+	text-align: center;
+}
+
+#res{
+	width: 100% !important;
+}
+
+@media only screen and (max-width: 425px) and (min-width: 320px){
+
+	*{
+		padding: 0 !important;
+	}
+
+	.head{
+		margin: 0 auto;
+	}
+
+	.data{
+		width: 100%;
+	}
+
+	.form{
+		width: 80%;
+		text-align: center;
+	}
+
+	.btn{
+		width: auto;
+	}
+
+	.chk{
+		width: 100%;
+		margin: 10px 0 !important;
+	}
+}
